@@ -1,3 +1,9 @@
+This will allow you to airdrop roughly 60 token accounts per minute :)
+
+This is less of a script, and more a repeatable workflow. As such it might be easier to watch me go through it on this video.
+
+https://youtu.be/8eCzL273E_I
+
 Notes:
 a. replace whitelist-accounts.json with your whitelist sheet
 b. set the tokenMint
