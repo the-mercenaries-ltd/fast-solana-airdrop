@@ -2,7 +2,13 @@ This will allow you to airdrop roughly 60 token accounts per minute :)
 
 This is less of a script, and more a repeatable workflow. As such it might be easier to watch me go through it on this video.
 
-https://youtu.be/8eCzL273E_I
+Part one:
+https://youtu.be/8eCzL273E_I 
+(note: this video is missing the full part of note b: "set the tokenMint and rpcUrl" 
+remember to set both variables inside 1-download-token-snapshot.js)
+
+Part two:
+https://youtu.be/gQuR_EAB4WY
 
 Notes:
 a. replace whitelist-accounts.json with your whitelist sheet
