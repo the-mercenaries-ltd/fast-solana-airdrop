@@ -14,7 +14,7 @@ var logger = fs.createWriteStream(outputFilepath, {
 
 for ( let i = 0; i < pendingAirdropAccounts.length; i++) {
   const account = pendingAirdropAccounts[i];
-  logger.write(`spl-token transfer ${tokenMint} 1 ${account.owner} --fund-recipient --allow-unfunded-recipient &` + "\r\n") // append string to your file
+  logger.write(`spl-token transfer ${tokenMint} ${account.pending} ${account.owner} --fund-recipient --allow-unfunded-recipient &` + "\r\n") // append string to your file
   if ( (i + 1) % 10 == 0 )
     logger.write(`sleep 10` + "\r\n");
 }
