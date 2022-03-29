@@ -1,9 +1,12 @@
 const axios = require('axios');
 const fs = require('fs');
 
+// const rpcUrl = "http://api.mainnet-beta.solana.com";
+const rpcUrl = "https://api.devnet.solana.com";
+
 async function main() {
 
-  const tokenMint = "4WhVLC1ysJcask71ao1genPqVkn6tA89qrT6Xbjhbhjy";
+  const tokenMint = "79krru6tvDsTbEQFwjbYQervsmJsSup4GPJ1L2isF75S";
   
   var data = JSON.stringify({
     "jsonrpc": "2.0",
@@ -30,7 +33,7 @@ async function main() {
   
   var config = {
     method: 'post',
-    url: 'http://api.mainnet-beta.solana.com',
+    url: rpcUrl,
     headers: { 
       'Content-Type': 'application/json'
     },
